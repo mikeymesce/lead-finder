@@ -1,4 +1,4 @@
- name: Run Public Deal Flow
+name: Run Public Deal Flow
 
   on:
     schedule:
