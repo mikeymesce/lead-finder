@@ -1,0 +1,22 @@
+# Secrets
+.env
+credentials.json
+service-account.json
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Local output (Sheet is the source of truth)
+leads.csv

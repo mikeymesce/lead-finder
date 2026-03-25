@@ -1,0 +1,26 @@
+{
+  "industries": ["plumbing", "electrical", "electric"],
+  "states": ["New York", "New Jersey", "Connecticut"],
+  "state_codes": ["NY", "NJ", "CT"],
+  "employees": {
+    "min": 4,
+    "max": 40
+  },
+  "sde": {
+    "min": 100000,
+    "max": 1000000
+  },
+  "max_results_per_day": 2,
+  "distress_keywords": [
+    "retiring", "retirement", "retired",
+    "divorce", "divorcing",
+    "death", "deceased", "estate", "passed away",
+    "motivated seller", "must sell", "urgent",
+    "health", "illness", "medical",
+    "relocating", "moving",
+    "burnout", "burned out",
+    "price reduced", "priced to sell", "reduced price",
+    "quick sale", "immediate sale",
+    "downsizing", "winding down"
+  ]
+}
