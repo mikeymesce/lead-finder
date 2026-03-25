@@ -10,11 +10,16 @@
     "min": 100000,
     "max": 1000000
   },
-  "max_results_per_day": 2,
+  "asking_price": {
+    "max": 5000000
+  },
+  "max_results_per_day": 6,
+  "max_marketplace": 3,
+  "max_maps": 3,
   "distress_keywords": [
     "retiring", "retirement", "retired",
     "divorce", "divorcing",
-    "death", "deceased", "estate", "passed away",
+    "death", "deceased", "estate", "passed away", "probate",
     "motivated seller", "must sell", "urgent",
     "health", "illness", "medical",
     "relocating", "moving",
@@ -28,5 +33,30 @@
     "Bridgeport CT", "Hartford CT", "Albany NY",
     "Yonkers NY", "Paterson NJ", "New Haven CT"
   ],
-  "maps_max_results_per_area": 10
+  "maps_max_results_per_area": 10,
+  "email": {
+    "to": "mikemesce@gmail.com",
+    "frequency_days": 3,
+    "top_n": 3
+  },
+  "scoring": {
+    "deal_quality": {
+      "sde_in_range": 25,
+      "price_sde_ratio_under_3": 20,
+      "price_sde_ratio_3_to_4": 10,
+      "price_sde_ratio_over_5": -10
+    },
+    "distress": {
+      "death_estate_probate": 25,
+      "divorce": 20,
+      "retiring": 15,
+      "health_illness": 15,
+      "must_sell_motivated_price_reduced": 10,
+      "relocating_burnout": 5
+    },
+    "red_flags": {
+      "no_financials": -10,
+      "lawsuits_liens": -20
+    }
+  }
 }

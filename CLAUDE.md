@@ -1,10 +1,10 @@
-# CLAUDE.md — Lead Finder
+# CLAUDE.md — DealFlow
 
 > Read this every session.
 
 ## What This Is
 
-Daily scraper that finds small plumbing/electrical companies for sale in the tri-state area. Built for Mike to source acquisition targets.
+Daily tool that finds small plumbing/electrical companies for sale in the tri-state area. Scores leads on deal quality + distress, deduplicates across runs, emails top 3. Built for Mike to source acquisition targets.
 
 ## Owner
 
@@ -12,10 +12,12 @@ Daily scraper that finds small plumbing/electrical companies for sale in the tri
 
 ## Quick Reference
 
-- **Run:** `python3 main.py`
-- **Config:** `config.json` (search criteria)
+- **Run:** `python3 main.py` (add `--no-email` to skip email)
+- **Config:** `config.json` (search criteria, scoring weights, email settings)
 - **Output:** Google Sheet (primary) or `leads.csv` (fallback)
 - **Entry point:** `main.py`
+- **Key files:** `scraper.py`, `maps_scraper.py`, `filters.py`, `output.py`, `email_digest.py`
+- **State files:** `seen_leads.json`, `skip_list.json`, `last_email.json`
 
 ## Rules
 
