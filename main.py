@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-DealFlow — Daily acquisition target finder.
+Public Deal Flow — Daily acquisition target finder.
 
 Searches business-for-sale marketplaces AND Google Maps for small
 plumbing/electrical companies in the tri-state area. Scores leads
@@ -38,7 +38,7 @@ def main():
         sys.exit(1)
 
     print(f"{'='*50}")
-    print(f"DealFlow — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print(f"Public Deal Flow — {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print(f"{'='*50}\n")
 
     # Load search criteria

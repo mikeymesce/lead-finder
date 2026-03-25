@@ -7,7 +7,7 @@ This lets the scraper automatically log leads to a Google Sheet you can check fr
 ### 1. Create a Google Cloud Project (free)
 1. Go to https://console.cloud.google.com
 2. Click "Select a project" at the top → "New Project"
-3. Name it "Lead Finder" → Create
+3. Name it "Public Deal Flow" → Create
 
 ### 2. Enable Google Sheets API
 1. In your project, go to "APIs & Services" → "Library"
@@ -17,7 +17,7 @@ This lets the scraper automatically log leads to a Google Sheet you can check fr
 ### 3. Create a Service Account
 1. Go to "APIs & Services" → "Credentials"
 2. Click "Create Credentials" → "Service Account"
-3. Name it "lead-finder" → Create → Done
+3. Name it "public-deal-flow" → Create → Done
 4. Click on the service account you just created
 5. Go to "Keys" tab → "Add Key" → "Create new key" → JSON → Create
 6. A `.json` file will download. **Move it to this project folder** and rename it `service-account.json`
@@ -25,7 +25,7 @@ This lets the scraper automatically log leads to a Google Sheet you can check fr
 ### 4. Create Your Google Sheet
 1. Go to https://sheets.google.com
 2. Create a new blank spreadsheet
-3. Name it "Lead Finder"
+3. Name it "Public Deal Flow"
 4. In row 1, add these headers:
    - A1: Date
    - B1: Company

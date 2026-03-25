@@ -106,11 +106,11 @@ def _build_html(leads, date_str):
     <html>
     <body style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;max-width:600px;margin:0 auto;padding:20px;color:#1f2937;">
         <h2 style="color:#1f2937;border-bottom:2px solid #2563eb;padding-bottom:8px;">
-            DealFlow — Top Leads for {date_str}
+            Public Deal Flow — Top Leads for {date_str}
         </h2>
         {lead_rows}
         <p style="font-size:12px;color:#9ca3af;margin-top:20px;">
-            Sent by DealFlow. To stop these emails, remove GMAIL_APP_PASSWORD from .env.
+            Sent by Public Deal Flow. To stop these emails, remove GMAIL_APP_PASSWORD from .env.
         </p>
     </body>
     </html>
@@ -154,7 +154,7 @@ def send_email(leads, config):
 
     # Build the email
     date_str = datetime.now().strftime("%B %d, %Y")
-    subject = f"DealFlow: Top {len(top_leads)} Leads — {date_str}"
+    subject = f"Public Deal Flow: Top {len(top_leads)} Leads — {date_str}"
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = subject

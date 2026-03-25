@@ -1,4 +1,4 @@
-# DealFlow
+# Public Deal Flow
 
 Automated daily tool that finds small electrical and plumbing companies for sale in the tri-state area (NY/NJ/CT). Scores leads on deal quality and distress signals, deduplicates across runs, and emails you the top 3 every few days.
 

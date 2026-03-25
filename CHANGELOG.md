@@ -1,7 +1,7 @@
 # Changelog
 
 ## 2026-03-25
-- **Renamed to DealFlow** (was "Lead Finder")
+- **Renamed to Public Deal Flow** (was "Lead Finder")
 - New scoring model: deal quality (SDE range, price-to-SDE ratio) + distress signals (keyword groups with weights) + red flags (no financials, legal issues)
 - Deduplication: tracks all seen leads in `seen_leads.json`, marks new vs returning
 - Skip list: add URLs to `skip_list.json` to permanently hide leads

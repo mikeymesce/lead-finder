@@ -1,4 +1,4 @@
-# CLAUDE.md — DealFlow
+# CLAUDE.md — Public Deal Flow
 
 > Read this every session.
 
