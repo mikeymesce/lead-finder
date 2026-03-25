@@ -18,11 +18,5 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Local output (Sheet is the source of truth)
-leads.csv
-
-# Runtime data (local state, not shared)
-seen_leads.json
-skip_list.json
-last_email.json
+# Logs
 cron.log

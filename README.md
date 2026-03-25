@@ -59,6 +59,35 @@ python3 main.py --marketplace-only  # Only marketplace listings
 ### Run Daily (automatic)
 See `docs/architecture.md` for cron setup instructions.
 
+## Cloud Setup (GitHub Actions)
+
+The scraper runs automatically in the cloud via GitHub Actions -- no laptop needed.
+
+**Schedule:** Every Monday and Thursday at 5:30pm ET.
+
+### Add Secrets
+
+The workflow needs three secrets to send emails and write to Google Sheets:
+
+1. Go to your GitHub repo > **Settings** > **Secrets and variables** > **Actions**
+2. Click **New repository secret** and add each one:
+   - `GMAIL_ADDRESS` -- your Gmail address (e.g. you@gmail.com)
+   - `GMAIL_APP_PASSWORD` -- your Gmail App Password (see Email Digest section above)
+   - `GOOGLE_SHEET_ID` -- the ID from your Google Sheet URL (the long string between /d/ and /edit)
+
+### Trigger Manually
+
+1. Go to your repo's **Actions** tab
+2. Click **"Run Public Deal Flow"** in the left sidebar
+3. Click **"Run workflow"** > **"Run workflow"**
+
+### How State Persists
+
+After each run, the workflow automatically commits updated state files (`seen_leads.json`, `skip_list.json`, `last_email.json`, `leads.csv`) back to the repo. This means:
+- Deduplication works across runs (the bot remembers what it already found)
+- Email frequency tracking works (it knows when it last emailed you)
+- `leads.csv` accumulates over time
+
 ## Search Criteria
 
 Edit `config.json` to change:

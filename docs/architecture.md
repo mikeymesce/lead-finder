@@ -15,9 +15,11 @@ web search tool/
 ├── .env                 # API keys + Gmail credentials (not in git)
 ├── .env.example         # Template for .env
 ├── .gitignore
-├── seen_leads.json      # Tracks every lead URL we've found (not in git)
-├── skip_list.json       # URLs to permanently hide (not in git)
-├── last_email.json      # Tracks when last email was sent (not in git)
+├── seen_leads.json      # Tracks every lead URL we've found (committed for cloud persistence)
+├── skip_list.json       # URLs to permanently hide (committed for cloud persistence)
+├── last_email.json      # Tracks when last email was sent (committed for cloud persistence)
+├── .github/workflows/
+│   └── run.yml          # GitHub Actions — runs scraper on schedule (Mon/Thu 5:30pm ET)
 ├── docs/
 │   ├── architecture.md      # This file
 │   ├── vision.md            # Roadmap
@@ -59,15 +61,11 @@ Google Maps ──> maps_scraper.py ────┘        │                  
 - `python3 main.py --maps-only` — Only Google Maps businesses
 - `python3 main.py --no-email` — Skip email digest
 
-## Running Daily
+## Running on Schedule (GitHub Actions)
 
-To run automatically every day at 8am:
+The scraper runs automatically via GitHub Actions (`.github/workflows/run.yml`):
 
-```bash
-crontab -e
-```
-
-Add this line:
-```
-0 8 * * * cd "/Users/michaelmesce/Desktop/web search tool" && /usr/bin/python3 main.py >> cron.log 2>&1
-```
+- **Schedule:** Every Monday and Thursday at 5:30pm ET (9:30pm UTC)
+- **Manual trigger:** Go to Actions tab > "Run Public Deal Flow" > Run workflow
+- **State persistence:** After each run, the workflow commits updated state files (`seen_leads.json`, `skip_list.json`, `last_email.json`, `leads.csv`) back to the repo
+- **Secrets needed:** `GMAIL_ADDRESS`, `GMAIL_APP_PASSWORD`, `GOOGLE_SHEET_ID` (set in repo Settings > Secrets)
