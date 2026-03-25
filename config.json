@@ -22,5 +22,11 @@
     "price reduced", "priced to sell", "reduced price",
     "quick sale", "immediate sale",
     "downsizing", "winding down"
-  ]
+  ],
+  "maps_search_areas": [
+    "New York City NY", "Newark NJ", "Jersey City NJ", "Stamford CT",
+    "Bridgeport CT", "Hartford CT", "Albany NY",
+    "Yonkers NY", "Paterson NJ", "New Haven CT"
+  ],
+  "maps_max_results_per_area": 10
 }

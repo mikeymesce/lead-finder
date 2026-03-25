@@ -66,11 +66,16 @@ def score_listing(listing, config):
     combined = f"{description} {company}"
 
     # Distress keywords — the main signal
-    distress_found = []
+    # Preserve any pre-existing distress signals (e.g., from Maps scraper)
+    distress_found = list(listing.get("distress_signals") or [])
     for keyword in config["distress_keywords"]:
         if keyword.lower() in combined:
             distress_found.append(keyword)
             score += 10
+
+    # Also score pre-existing distress signals (from Maps: low rating, no website, etc.)
+    existing_count = len(listing.get("distress_signals") or [])
+    score += existing_count * 8  # 8 points per Maps distress signal
 
     score = min(score, 50)  # Cap distress score at 50
     listing["distress_signals"] = distress_found

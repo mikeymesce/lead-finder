@@ -14,17 +14,18 @@ Find 1-2 acquisition targets per day — small plumbing and electrical companies
 
 ## Phases
 
-### Phase 1 (current) — Free Scraper
+### Phase 1 (complete) — Free Scraper
 - Scrape business-for-sale marketplaces (BizBuySell, BizQuest, BusinessBroker.net)
 - Filter by criteria above
 - Flag distress keywords
 - Log to Google Sheet / CSV
 
-### Phase 2 (future) — Enrichment
-- Google Maps to find plumbing/electrical companies NOT listed for sale
-- Enrich with public data (years in business, reviews declining, owner age)
-- Cross-reference with court records for divorce/estate filings
-- Requires small API budget (~$20-50/mo)
+### Phase 2 (current) — Google Maps Distress Finder
+- Google Maps scraper finds plumbing/electrical companies NOT listed for sale
+- Searches 10 tri-state metro areas for both industries (20 searches total)
+- Detects distress signals: low rating, few reviews, no website, negative review keywords
+- $0 cost — Playwright scraping, no paid APIs
+- Run with `--maps-only` or combined with Phase 1
 
 ### Phase 3 (future) — Outreach
 - Auto-generate personalized outreach letters
