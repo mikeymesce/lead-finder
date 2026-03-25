@@ -1,42 +1,42 @@
 name: Run Public Deal Flow
 
-  on:
-    schedule:
-      - cron: '30 21 * * 1,4'
-    workflow_dispatch:
+on:
+  schedule:
+    - cron: '30 21 * * 1,4'
+  workflow_dispatch:
 
-  jobs:
-    scrape:
-      runs-on: ubuntu-latest
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
 
-      steps:
-        - name: Checkout repo
-          uses: actions/checkout@v4
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-        - name: Set up Python 3.11
-          uses: actions/setup-python@v5
-          with:
-            python-version: '3.11'
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-        - name: Install dependencies
-          run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-        - name: Install Playwright Chromium
-          run: |
-            python -m playwright install chromium
-            python -m playwright install-deps chromium
+      - name: Install Playwright Chromium
+        run: |
+          python -m playwright install chromium
+          python -m playwright install-deps chromium
 
-        - name: Run scraper
-          env:
-            GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
-            GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-            GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
-          run: python main.py
+      - name: Run scraper
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+        run: python main.py
 
-        - name: Commit updated state files
-          run: |
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add seen_leads.json skip_list.json last_email.json leads.csv
-            git diff --staged --quiet || git commit -m "Update state files from scheduled run [skip ci]"
-            git push
+      - name: Commit updated state files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add seen_leads.json skip_list.json last_email.json leads.csv
+          git diff --staged --quiet || git commit -m "Update state files from scheduled run [skip ci]"
+          git push
