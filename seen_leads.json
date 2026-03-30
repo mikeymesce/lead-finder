@@ -61,5 +61,26 @@
     "first_seen": "2026-03-26",
     "last_seen": "2026-03-26",
     "status": "new"
+  },
+  "https://www.melcarrelectric.com/": {
+    "url": "https://www.melcarrelectric.com/",
+    "company": "Mel Carr Electric: Albany Electricians",
+    "first_seen": "2026-03-30",
+    "last_seen": "2026-03-30",
+    "status": "new"
+  },
+  "https://www.midwayelectricny.com/": {
+    "url": "https://www.midwayelectricny.com/",
+    "company": "Midway Electric: Licensed Electrician | New York, NY",
+    "first_seen": "2026-03-30",
+    "last_seen": "2026-03-30",
+    "status": "new"
+  },
+  "https://macintoshelectric.com/": {
+    "url": "https://macintoshelectric.com/",
+    "company": "Macintosh Electric",
+    "first_seen": "2026-03-30",
+    "last_seen": "2026-03-30",
+    "status": "new"
   }
 }
