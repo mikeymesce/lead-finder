@@ -52,7 +52,7 @@
     "url": "https://safeandsoundelectric.com/?utm_source=gbp&utm_medium=organic",
     "company": "Safe and Sound Electric",
     "first_seen": "2026-03-26",
-    "last_seen": "2026-03-26",
+    "last_seen": "2026-04-02",
     "status": "new"
   },
   "https://www.beststamfordelectrician.com/": {
@@ -81,6 +81,20 @@
     "company": "Macintosh Electric",
     "first_seen": "2026-03-30",
     "last_seen": "2026-03-30",
+    "status": "new"
+  },
+  "https://www.malfettoneelectric.com/": {
+    "url": "https://www.malfettoneelectric.com/",
+    "company": "Malfettone Electric",
+    "first_seen": "2026-04-02",
+    "last_seen": "2026-04-02",
+    "status": "new"
+  },
+  "https://cityelectricsupplyjc.com/": {
+    "url": "https://cityelectricsupplyjc.com/",
+    "company": "Electrical and Lighting Supplier in Jersey City, NJ",
+    "first_seen": "2026-04-02",
+    "last_seen": "2026-04-02",
     "status": "new"
   }
 }
