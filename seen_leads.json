@@ -10,14 +10,14 @@
     "url": "https://www.bizbuysell.com/new-jersey/plumbing-businesses-for-sale/",
     "company": "The owner/seller holds a New Jersey and New York State Master Plumbing ...",
     "first_seen": "2026-03-25",
-    "last_seen": "2026-04-09",
+    "last_seen": "2026-04-13",
     "status": "new"
   },
   "https://www.bizbuysell.com/new-york/new-york-city-metro-area/plumbing-businesses-for-sale/": {
     "url": "https://www.bizbuysell.com/new-york/new-york-city-metro-area/plumbing-businesses-for-sale/",
     "company": "The owner/seller holds a New Jersey and New York State Master Plumbing ...",
     "first_seen": "2026-03-25",
-    "last_seen": "2026-04-09",
+    "last_seen": "2026-04-13",
     "status": "new"
   },
   "https://www.google.com/maps/search/Compare+Electric+Co": {
@@ -101,14 +101,14 @@
     "url": "https://www.bizbuysell.com/new-york/new-york/plumbing-businesses-for-sale/",
     "company": "Legacy NYC Union Plumbing Company",
     "first_seen": "2026-04-06",
-    "last_seen": "2026-04-09",
+    "last_seen": "2026-04-13",
     "status": "new"
   },
   "https://www.google.com/maps/search/Newark+Electric+Contractors": {
     "url": "https://www.google.com/maps/search/Newark+Electric+Contractors",
     "company": "Newark Electric Contractors",
     "first_seen": "2026-04-06",
-    "last_seen": "2026-04-09",
+    "last_seen": "2026-04-13",
     "status": "new"
   },
   "https://triplumbing.com/": {
@@ -116,6 +116,20 @@
     "company": "Tristate Plumbing \u2013 New York's Premier Commercial ...",
     "first_seen": "2026-04-06",
     "last_seen": "2026-04-09",
+    "status": "new"
+  },
+  "https://www.google.com/maps/search/Brian's+Electric+Company": {
+    "url": "https://www.google.com/maps/search/Brian's+Electric+Company",
+    "company": "Brian's Electric Company",
+    "first_seen": "2026-04-13",
+    "last_seen": "2026-04-13",
+    "status": "new"
+  },
+  "https://www.facebook.com/highendelectricllc/": {
+    "url": "https://www.facebook.com/highendelectricllc/",
+    "company": "High End Electric LLC 110+ followers High End Electric LLC ; Details. \udb82\udc4d. 4 Reviews. \udb82\udd81. $$. \udb81\udecf. Closed now. \udb81\ude1b ; Links. \udb82\udd02 ; Contact info. \udb81\udeea. (973) 569-4513. \udb81\ude22. Read more",
+    "first_seen": "2026-04-13",
+    "last_seen": "2026-04-13",
     "status": "new"
   }
 }
