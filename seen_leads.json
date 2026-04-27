@@ -3,21 +3,21 @@
     "url": "https://www.bizbuysell.com/new-york/plumbing-businesses-for-sale/",
     "company": "Legacy NYC Union Plumbing Company",
     "first_seen": "2026-03-25",
-    "last_seen": "2026-04-23",
+    "last_seen": "2026-04-27",
     "status": "new"
   },
   "https://www.bizbuysell.com/new-jersey/plumbing-businesses-for-sale/": {
     "url": "https://www.bizbuysell.com/new-jersey/plumbing-businesses-for-sale/",
     "company": "The owner/seller holds a New Jersey and New York State Master Plumbing ...",
     "first_seen": "2026-03-25",
-    "last_seen": "2026-04-23",
+    "last_seen": "2026-04-27",
     "status": "new"
   },
   "https://www.bizbuysell.com/new-york/new-york-city-metro-area/plumbing-businesses-for-sale/": {
     "url": "https://www.bizbuysell.com/new-york/new-york-city-metro-area/plumbing-businesses-for-sale/",
     "company": "The owner/seller holds a New Jersey and New York State Master Plumbing ...",
     "first_seen": "2026-03-25",
-    "last_seen": "2026-04-23",
+    "last_seen": "2026-04-27",
     "status": "new"
   },
   "https://www.google.com/maps/search/Compare+Electric+Co": {
@@ -158,6 +158,27 @@
     "company": "Roach Plumbing/Heating & Well Systems: an RWA Well Service CompanyMy Ad Center",
     "first_seen": "2026-04-23",
     "last_seen": "2026-04-23",
+    "status": "new"
+  },
+  "https://www.google.com/maps/search/JNR+Plumbing+LLC": {
+    "url": "https://www.google.com/maps/search/JNR+Plumbing+LLC",
+    "company": "JNR Plumbing LLC",
+    "first_seen": "2026-04-27",
+    "last_seen": "2026-04-27",
+    "status": "new"
+  },
+  "https://www.google.com/maps/search/Leak+Off+Plumbing+&+Heating": {
+    "url": "https://www.google.com/maps/search/Leak+Off+Plumbing+&+Heating",
+    "company": "Leak Off Plumbing & Heating",
+    "first_seen": "2026-04-27",
+    "last_seen": "2026-04-27",
+    "status": "new"
+  },
+  "https://www.google.com/maps/search/Bria+Plumbing+&+Heating": {
+    "url": "https://www.google.com/maps/search/Bria+Plumbing+&+Heating",
+    "company": "Bria Plumbing & Heating",
+    "first_seen": "2026-04-27",
+    "last_seen": "2026-04-27",
     "status": "new"
   }
 }
