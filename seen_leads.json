@@ -17,7 +17,7 @@
     "url": "https://www.bizbuysell.com/new-york/new-york-city-metro-area/plumbing-businesses-for-sale/",
     "company": "The owner/seller holds a New Jersey and New York State Master Plumbing ...",
     "first_seen": "2026-03-25",
-    "last_seen": "2026-04-27",
+    "last_seen": "2026-05-07",
     "status": "new"
   },
   "https://www.google.com/maps/search/Compare+Electric+Co": {
@@ -179,6 +179,20 @@
     "company": "Bria Plumbing & Heating",
     "first_seen": "2026-04-27",
     "last_seen": "2026-04-27",
+    "status": "new"
+  },
+  "https://www.bizbuysell.com/new-jersey/bergen-county/plumbing-businesses-for-sale/": {
+    "url": "https://www.bizbuysell.com/new-jersey/bergen-county/plumbing-businesses-for-sale/",
+    "company": "The owner/seller holds a New Jersey and New York State Master Plumbing ...",
+    "first_seen": "2026-05-07",
+    "last_seen": "2026-05-07",
+    "status": "new"
+  },
+  "https://www.bizquest.com/electrical-businesses-for-sale-in-new-jersey/": {
+    "url": "https://www.bizquest.com/electrical-businesses-for-sale-in-new-jersey/",
+    "company": "New Jersey Electrical Businesses For Sale",
+    "first_seen": "2026-05-07",
+    "last_seen": "2026-05-07",
     "status": "new"
   }
 }
