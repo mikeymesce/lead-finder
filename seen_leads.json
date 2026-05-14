@@ -108,7 +108,7 @@
     "url": "https://www.google.com/maps/search/Newark+Electric+Contractors",
     "company": "Newark Electric Contractors",
     "first_seen": "2026-04-06",
-    "last_seen": "2026-04-23",
+    "last_seen": "2026-05-14",
     "status": "new"
   },
   "https://triplumbing.com/": {
@@ -122,7 +122,7 @@
     "url": "https://www.google.com/maps/search/Brian's+Electric+Company",
     "company": "Brian's Electric Company",
     "first_seen": "2026-04-13",
-    "last_seen": "2026-04-20",
+    "last_seen": "2026-05-14",
     "status": "new"
   },
   "https://www.facebook.com/highendelectricllc/": {
@@ -193,6 +193,13 @@
     "company": "New Jersey Electrical Businesses For Sale",
     "first_seen": "2026-05-07",
     "last_seen": "2026-05-07",
+    "status": "new"
+  },
+  "https://www.google.com/maps/search/All+Clear+Plumbing": {
+    "url": "https://www.google.com/maps/search/All+Clear+Plumbing",
+    "company": "All Clear Plumbing",
+    "first_seen": "2026-05-14",
+    "last_seen": "2026-05-14",
     "status": "new"
   }
 }
