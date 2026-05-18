@@ -108,7 +108,7 @@
     "url": "https://www.google.com/maps/search/Newark+Electric+Contractors",
     "company": "Newark Electric Contractors",
     "first_seen": "2026-04-06",
-    "last_seen": "2026-05-14",
+    "last_seen": "2026-05-18",
     "status": "new"
   },
   "https://triplumbing.com/": {
@@ -129,7 +129,7 @@
     "url": "https://www.facebook.com/highendelectricllc/",
     "company": "High End Electric LLC 110+ followers High End Electric LLC ; Details. \udb82\udc4d. 4 Reviews. \udb82\udd81. $$. \udb81\udecf. Closed now. \udb81\ude1b ; Links. \udb82\udd02 ; Contact info. \udb81\udeea. (973) 569-4513. \udb81\ude22. Read more",
     "first_seen": "2026-04-13",
-    "last_seen": "2026-04-13",
+    "last_seen": "2026-05-18",
     "status": "new"
   },
   "https://www.bizbuysell.com/connecticut/fairfield-county/electrical-and-mechanical-contracting-businesses-for-sale/": {
@@ -200,6 +200,13 @@
     "company": "All Clear Plumbing",
     "first_seen": "2026-05-14",
     "last_seen": "2026-05-14",
+    "status": "new"
+  },
+  "https://www.facebook.com/ECIHartford/": {
+    "url": "https://www.facebook.com/ECIHartford/",
+    "company": "Electrical Contractors, Inc. 160+ followers Our Service Department is here for you 24/7! We're a phone call away at 860-549-2822 ! TerraCast Products and Smith Roy. Read more",
+    "first_seen": "2026-05-18",
+    "last_seen": "2026-05-18",
     "status": "new"
   }
 }
