@@ -3,7 +3,7 @@
     "url": "https://www.bizbuysell.com/new-york/plumbing-businesses-for-sale/",
     "company": "Legacy NYC Union Plumbing Company",
     "first_seen": "2026-03-25",
-    "last_seen": "2026-05-21",
+    "last_seen": "2026-05-25",
     "status": "new"
   },
   "https://www.bizbuysell.com/new-jersey/plumbing-businesses-for-sale/": {
@@ -108,7 +108,7 @@
     "url": "https://www.google.com/maps/search/Newark+Electric+Contractors",
     "company": "Newark Electric Contractors",
     "first_seen": "2026-04-06",
-    "last_seen": "2026-05-21",
+    "last_seen": "2026-05-25",
     "status": "new"
   },
   "https://triplumbing.com/": {
@@ -122,7 +122,7 @@
     "url": "https://www.google.com/maps/search/Brian's+Electric+Company",
     "company": "Brian's Electric Company",
     "first_seen": "2026-04-13",
-    "last_seen": "2026-05-14",
+    "last_seen": "2026-05-25",
     "status": "new"
   },
   "https://www.facebook.com/highendelectricllc/": {
@@ -206,7 +206,7 @@
     "url": "https://www.facebook.com/ECIHartford/",
     "company": "Electrical Contractors, Inc. 160+ followers Our Service Department is here for you 24/7! We're a phone call away at 860-549-2822 ! TerraCast Products and Smith Roy. Read more",
     "first_seen": "2026-05-18",
-    "last_seen": "2026-05-21",
+    "last_seen": "2026-05-25",
     "status": "new"
   },
   "https://www.bizbuysell.com/plumbing-businesses-for-sale/": {
@@ -221,6 +221,20 @@
     "company": "Electrical Contracting. GREAT REPEAT Customer List. Top ...",
     "first_seen": "2026-05-21",
     "last_seen": "2026-05-21",
+    "status": "new"
+  },
+  "https://portal.311.nyc.gov/search/?q=go%20to%20web%20now%20MAKEMUR.com%20Looking%20for%20a%20way%20to%20buy%20a%20case%20dismissal%20online&page=5": {
+    "url": "https://portal.311.nyc.gov/search/?q=go%20to%20web%20now%20MAKEMUR.com%20Looking%20for%20a%20way%20to%20buy%20a%20case%20dismissal%20online&page=5",
+    "company": "Search \u00b7 NYC311",
+    "first_seen": "2026-05-25",
+    "last_seen": "2026-05-25",
+    "status": "new"
+  },
+  "https://divorce-longisland.com/dividing-a-family-business-in-a-long-island-ny-divorce-what-you-need-to-know/": {
+    "url": "https://divorce-longisland.com/dividing-a-family-business-in-a-long-island-ny-divorce-what-you-need-to-know/",
+    "company": "How to Divide a Business in a Long Island, NY Divorce",
+    "first_seen": "2026-05-25",
+    "last_seen": "2026-05-25",
     "status": "new"
   }
 }
