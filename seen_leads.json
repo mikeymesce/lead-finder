@@ -3,7 +3,7 @@
     "url": "https://www.bizbuysell.com/new-york/plumbing-businesses-for-sale/",
     "company": "Legacy NYC Union Plumbing Company",
     "first_seen": "2026-03-25",
-    "last_seen": "2026-05-25",
+    "last_seen": "2026-05-28",
     "status": "new"
   },
   "https://www.bizbuysell.com/new-jersey/plumbing-businesses-for-sale/": {
@@ -108,7 +108,7 @@
     "url": "https://www.google.com/maps/search/Newark+Electric+Contractors",
     "company": "Newark Electric Contractors",
     "first_seen": "2026-04-06",
-    "last_seen": "2026-05-25",
+    "last_seen": "2026-05-28",
     "status": "new"
   },
   "https://triplumbing.com/": {
@@ -122,7 +122,7 @@
     "url": "https://www.google.com/maps/search/Brian's+Electric+Company",
     "company": "Brian's Electric Company",
     "first_seen": "2026-04-13",
-    "last_seen": "2026-05-25",
+    "last_seen": "2026-05-28",
     "status": "new"
   },
   "https://www.facebook.com/highendelectricllc/": {
@@ -235,6 +235,27 @@
     "company": "How to Divide a Business in a Long Island, NY Divorce",
     "first_seen": "2026-05-25",
     "last_seen": "2026-05-25",
+    "status": "new"
+  },
+  "https://synergybb.com/businesses-for-sale/includes-real-estate/": {
+    "url": "https://synergybb.com/businesses-for-sale/includes-real-estate/",
+    "company": "Businesses with Commercial Real Estate for Sale",
+    "first_seen": "2026-05-28",
+    "last_seen": "2026-05-28",
+    "status": "new"
+  },
+  "https://www.nybusinessdivorce.com/2020/05/articles/valuation/30-million-appraisal-of-plumbing-fixtures-marketeer-goes-down-the-drain-at-fair-value-hearing/": {
+    "url": "https://www.nybusinessdivorce.com/2020/05/articles/valuation/30-million-appraisal-of-plumbing-fixtures-marketeer-goes-down-the-drain-at-fair-value-hearing/",
+    "company": "$30 Million Appraisal of Plumbing Fixtures \"Marketeer ...",
+    "first_seen": "2026-05-28",
+    "last_seen": "2026-05-28",
+    "status": "new"
+  },
+  "https://plumbingnyc.com/": {
+    "url": "https://plumbingnyc.com/",
+    "company": "Plumbing NYC: Plumber NYC | Best Plumbing New York City",
+    "first_seen": "2026-05-28",
+    "last_seen": "2026-05-28",
     "status": "new"
   }
 }
