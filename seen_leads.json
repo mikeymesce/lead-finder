@@ -3,7 +3,7 @@
     "url": "https://www.bizbuysell.com/new-york/plumbing-businesses-for-sale/",
     "company": "Legacy NYC Union Plumbing Company",
     "first_seen": "2026-03-25",
-    "last_seen": "2026-05-28",
+    "last_seen": "2026-06-01",
     "status": "new"
   },
   "https://www.bizbuysell.com/new-jersey/plumbing-businesses-for-sale/": {
@@ -17,7 +17,7 @@
     "url": "https://www.bizbuysell.com/new-york/new-york-city-metro-area/plumbing-businesses-for-sale/",
     "company": "The owner/seller holds a New Jersey and New York State Master Plumbing ...",
     "first_seen": "2026-03-25",
-    "last_seen": "2026-05-07",
+    "last_seen": "2026-06-01",
     "status": "new"
   },
   "https://www.google.com/maps/search/Compare+Electric+Co": {
@@ -31,7 +31,7 @@
     "url": "https://hubplumbingnyc.com/",
     "company": "Hub Plumbing & Heating: Plumber NYC, Plumber New York ...",
     "first_seen": "2026-03-25",
-    "last_seen": "2026-03-25",
+    "last_seen": "2026-06-01",
     "status": "new"
   },
   "https://riteplumbingnyc.com/": {
@@ -108,7 +108,7 @@
     "url": "https://www.google.com/maps/search/Newark+Electric+Contractors",
     "company": "Newark Electric Contractors",
     "first_seen": "2026-04-06",
-    "last_seen": "2026-05-28",
+    "last_seen": "2026-06-01",
     "status": "new"
   },
   "https://triplumbing.com/": {
@@ -256,6 +256,20 @@
     "company": "Plumbing NYC: Plumber NYC | Best Plumbing New York City",
     "first_seen": "2026-05-28",
     "last_seen": "2026-05-28",
+    "status": "new"
+  },
+  "https://www.loopnet.com/biz/plumbing-businesses-for-sale/8/": {
+    "url": "https://www.loopnet.com/biz/plumbing-businesses-for-sale/8/",
+    "company": "Plumbing Businesses For Sale - LoopNet",
+    "first_seen": "2026-06-01",
+    "last_seen": "2026-06-01",
+    "status": "new"
+  },
+  "https://www.airtasker.com/us/services/plumbing/new-york-ny/": {
+    "url": "https://www.airtasker.com/us/services/plumbing/new-york-ny/",
+    "company": "Find 8 Trusted plumbers in New York",
+    "first_seen": "2026-06-01",
+    "last_seen": "2026-06-01",
     "status": "new"
   }
 }
